@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>BMI Calculator</title>
+    <meta name="author" content="Boyd Veenstra MD1A">
+    <link rel="stylesheet" href="css.css">
+  </head>
+  <body>
+  <div class="wrapper">
+    <div id="vraag">
+      <div id="head">
+      <h3>BMI AJAX 2019</h3>
+      <br>
+    </div>
+      <div id="input">
+      <div class="box">
+      <p>Vul je lengte in (in cm):</p>
+        <input type="text" size="20" id="lengte" style="width: 100%; border: 2px solid black;">
+      </div>
+        <span id="space2"></span>
+      <div class="box">
+        <p>Vul je gewicht in (in kg):</p>
+        <input type="text" size="20" id="gewicht" style="width: 100%; border: 2px solid black;">
+      </div>
+      </div>
+      <input type="button" value="Bereken BMI" id="bereken" class="button">
+      <h3> Zie hier uw resultaat </h3>
+    <div id="resultaat" class="resultaat"></div>
+    <br>
+    <span id="bmi_tekst"></span>
+    </div>
+  </div>
+    <script src="js/ajax.js"></script>
+  </body>
+</html>
